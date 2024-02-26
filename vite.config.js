@@ -5,4 +5,5 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   base: "/https://macacodes.github.io/todofinal/",
   plugins: [react()],
+  base: '/vite-deploy-demo/'
 })
